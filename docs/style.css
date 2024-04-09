@@ -58,6 +58,9 @@ button {
   background-color: rgb(10, 20, 40);
   font-size: 30px;
 }
+button:hover{
+  cursor: pointer;
+}
 form {
   text-align: center;
   margin: calc(50vh - 100px) auto 0;
