@@ -46,6 +46,23 @@ input::placeholder {
   color: rgb(20, 40, 80);
   -webkit-text-fill-color: rgb(20, 40, 80);
 }
+button {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+  margin: 20px 0;
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  color: rgb(200, 210, 240);
+  -webkit-text-fill-color: rgb(200, 210, 240);
+  background-color: rgb(10, 20, 40);
+  font-size: 40px;
+}
+button::placeholder {
+  font-family: "Orbitron", sans-serif;
+  color: rgb(20, 40, 80);
+  -webkit-text-fill-color: rgb(20, 40, 80);
+}
 form {
   text-align: center;
   margin: calc(50vh - 100px) auto 0;
