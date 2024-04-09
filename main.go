@@ -2,11 +2,9 @@ package main
 
 import (
 	"embed"
-	"io"
 	"log"
 	"net/rpc"
 	"net/rpc/jsonrpc"
-	"os"
 	"syscall/js"
 
 	"github.com/joho/godotenv"
@@ -52,7 +50,7 @@ func main() {
 	if err != nil {
 		log.Print(err)
 	}
-	d, err := godotenv.Parse(io.TeeReader(fp, os.Stdout))
+	d, err := godotenv.Parse(fp)
 	if err != nil {
 		log.Print(err)
 	}
