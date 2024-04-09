@@ -58,6 +58,10 @@ button {
   background-color: rgb(10, 20, 40);
   font-size: 30px;
 }
+button:disabled{
+  color: rgb(20, 21, 24);
+  background-color: rgb(40, 40, 80);
+}
 button:hover{
   cursor: pointer;
 }
